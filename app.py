@@ -19,8 +19,8 @@ st.markdown("输入研究方向或关键词，Agent 将自动检索 ArXiv 上的
 with st.sidebar:
     st.header("⚙️ Agent 配置")
     api_key = st.text_input("请输入你的 API Key", type="password")
-    base_url = st.text_input("API Base URL (必填)", value="https://lanyiapi.com/v1")
-    model_name = st.text_input("模型名称", value="claude-3-5-sonnet-20240620")
+    base_url = st.text_input("API Base URL (必填)", value="https://api.openai.com/v1")
+    model_name = st.text_input("模型名称", value="gpt-3.5-turbo")
     
     st.markdown("---")
     max_results = st.slider("最大检索篇数", min_value=3, max_value=10, value=5)
