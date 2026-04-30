@@ -12,3 +12,4 @@
 1. 安装依赖：`pip install -r requirements.txt`
 2. 启动应用：`streamlit run app.py`
 3. 在网页左侧填入你的 API Key 和 Base URL，输入研究方向即可开始检索。
+<img width="1850" height="971" alt="运行页面" src="https://github.com/user-attachments/assets/cb7a603e-ae5d-4e35-842c-6349ce0838a6" />
